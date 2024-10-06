@@ -1,0 +1,12 @@
+.adminfeature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 100px; */
+    color: white;
+    padding: 20px;
+    height: 95vh;
+    background-color: rgb(42, 42, 42);
+}

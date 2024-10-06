@@ -1,0 +1,72 @@
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background-color: rgb(42, 42, 42);
+}
+.register-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 96, 26);
+    padding: 20px;
+    color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+.register-header{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 300px; */
+    /* padding: 20px; */
+    color: white;
+    border-radius: 5px;
+}
+input{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+}
+.select{
+    margin-top: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: rgb(150, 201, 83);
+}
+option{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    background-color: rgb(92, 96, 87);
+    text-align: center;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    width: 100px;
+    color: white;
+    background-color: rgb(25, 77, 196);
+}
